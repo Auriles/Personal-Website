@@ -1,0 +1,40 @@
+body {
+    background-color: #EBEBEB;
+    font-family: 'Roboto', sans-serif; /* Roboto, Varela et Montserrat sont utilisées le plus souvent dans les titres */
+    color: rgb(50, 50, 50);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #EB7164;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3 {
+    color: #EB7160;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    
+}
+
+a {
+   font-family: 'Open Sans', sans-serif;
+   color: black;
+   text-decoration: none;
+   transition: color 0.3s ease;     
+}
+
+a:hover {
+    color: #EB7160;
+    text-decoration: none;
+
+}
+
+p {
+   font-family: 'Open Sans', sans-serif; /* Open Sans est utilisée le plus souvent dans les corps de textes */
+   letter-spacing: 1.5px;    
+}
