@@ -6,7 +6,7 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    color: #EB7164;
+    color: #125971;
 }
 
 h1, h2, h3 {
@@ -14,7 +14,7 @@ h1, h2, h3 {
 }
 
 h2, h3 {
-    color: #EB7160;
+    color: #0794C3;
     font-size: 25px;
     line-height: 25px;
     letter-spacing: 2px;
@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-    color: #EB7160;
+    color: #0794C3;
     text-decoration: none;
 
 }
@@ -37,4 +37,17 @@ a:hover {
 p {
    font-family: 'Open Sans', sans-serif; /* Open Sans est utilisée le plus souvent dans les corps de textes */
    letter-spacing: 1.5px;    
+}
+
+#container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin: 50px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px #D2D2D2;
 }
