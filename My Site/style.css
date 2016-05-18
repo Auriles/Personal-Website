@@ -73,6 +73,19 @@ a{
 }
 
 
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-repeat{
+	background:repeat;
+}
+
+
 /* Dark theme */
 
 .d-bloc{
@@ -163,6 +176,9 @@ a{
 
 /* Bloc text custom styling */
 
+#bloc-2 h3{
+	font-size: 24px;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -339,6 +355,13 @@ button{
 	padding: 32px 30px 26px 30px;
 	min-width:80px;
 }
+.icon-semi-rounded-a{
+	margin:0 auto;
+	border:2px solid transparent;
+	border-radius: 20px 0;
+	padding: 32px 30px 26px 30px;
+	min-width:80px;
+}
 .icon-round,.icon-md,.icon-square.icon-md,.icon-rounded.icon-md{
 	min-width: 92px;
 }
@@ -369,9 +392,6 @@ button{
 -------------------------------------------------------------- */
 .text-w-sm{
 	max-width:150px;
-}
-.text-w-md{
-	max-width:300px;
 }
 .text-center.text-w-sm, .text-center.text-w-md, .text-center.text-w-lg{
 	margin-left: auto;
@@ -419,10 +439,6 @@ iframe{
 	margin: 0 4px -1px;
 }
 
-.no-shadows .carousel-control.left, .no-shadows .carousel-control.right{
-	background-image: none;
-}
-
 /* = Custom Colour Styling
 -------------------------------------------------------------- */
 
@@ -437,37 +453,22 @@ iframe{
 .bgc-maroon-htmlcss{
 	background-color:#7D060A;
 }
+.bgc-dark-scarlet-2{
+	background-color:#63081A;
+}
 /* Text colour styles */
 
 .tc-dark-scarlet{
 	color:#63081A!important;
 }
+.tc-maroon-htmlcss{
+	color:#7D060A!important;
+}
+.tc-cornsilk{
+	color:#FFF5D9!important;
+}
 /* Link colour styles */
 
-.ltc-black{
-	color:#000000!important;
-}
-.ltc-black:hover{
-	color:#000000!important;
-}
-.ltc-lapis-lazuli{
-	color:#3B5998!important;
-}
-.ltc-lapis-lazuli:hover{
-	color:#2f477a!important;
-}
-.ltc-french-blue{
-	color:#0274B3!important;
-}
-.ltc-french-blue:hover{
-	color:#025d8f!important;
-}
-.ltc-sinopia{
-	color:#C72C11!important;
-}
-.ltc-sinopia:hover{
-	color:#9f230e!important;
-}
 .ltc-cornsilk{
 	color:#FFF5D9!important;
 }
@@ -476,6 +477,10 @@ iframe{
 }
 /* Icon colour styles */
 
+.icon-maroon-htmlcss{
+	color:#7D060A!important;
+	border-color:#7D060A!important;
+}
 .icon-black{
 	color:#000000!important;
 	border-color:#000000!important;
@@ -493,6 +498,14 @@ iframe{
 	border-color:#C72C11!important;
 }
 
+/* Bloc image backgrounds */
+
+.bg-lines-dl{
+	background-image:url('img/lines-dl.png');
+}
+.bg-lines-h-bg{
+	background-image:url('img/lines-h-bg.png');
+}
 
 
 
