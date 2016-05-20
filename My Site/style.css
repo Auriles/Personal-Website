@@ -173,6 +173,12 @@ a{
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Row Margin Offsets */
+
+.voffset{
+	margin-top:30px;
+}
+
 /* Bloc text custom styling */
 
 #bloc-1 p{
@@ -182,21 +188,21 @@ a{
 #bloc-2 h3{
 	font-size: 24px;
 }
-#bloc-5 h2{
+#bloc-4 h2{
 	font-weight: 700;
 	font-family: Roboto;
+}
+#bloc-4 p{
+	font-family: Montserrat;
 }
 #bloc-5 p{
 	font-family: Montserrat;
 }
-#bloc-6 h2{
+#bloc-5 h2{
 	font-weight: 700;
 	font-family: Roboto;
 }
 #bloc-6 p{
-	font-family: Montserrat;
-}
-#bloc-7 p{
 	font-family: Montserrat;
 }
 
@@ -346,18 +352,6 @@ button{
 	outline: none!important;
 }
 
-.a-btn{
-	padding: 6px 10px 6px 0;
-	line-height: 1.42857143;
-	display:inline-block;
-}
-.text-center .a-btn{
-	padding: 6px 0;
-}
-.a-block{
-	width:100%;
-	text-align: left;
-}
 .dropdown a .caret{
 	margin:0 0 0 5px}
 /* = Icons
@@ -473,9 +467,6 @@ iframe{
 .bgc-cornsilk{
 	background-color:#FFF5D9;
 }
-.bgc-maroon-htmlcss{
-	background-color:#7D060A;
-}
 .bgc-dark-scarlet-2{
 	background-color:#63081A;
 }
@@ -489,6 +480,16 @@ iframe{
 }
 .tc-cornsilk{
 	color:#FFF5D9!important;
+}
+/* Button colour styles */
+
+.btn-maroon-htmlcss{
+	background:#7D060A;
+	color:#FFFFFF!important;
+}
+.btn-maroon-htmlcss:hover{
+	background:#640508;
+	color:#FFFFFF!important;
 }
 /* Link colour styles */
 
@@ -528,6 +529,9 @@ iframe{
 }
 .bg-lines-h-bg{
 	background-image:url("img/lines-h-bg.png");
+}
+.bg-lines-dl{
+	background-image:url('img/lines-dl.png');
 }
 
 
