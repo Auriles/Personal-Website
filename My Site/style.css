@@ -206,6 +206,10 @@ a{
 	font-weight: 400;
 	font-family: Montserrat;
 }
+#bloc-7 h2{
+	font-weight: 700;
+	font-family: Roboto;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -648,7 +652,10 @@ a[data-lightbox]:hover img{
 	background-image:url("img/lines-h-bg.png");
 }
 .bg-lines-dl{
-	background-image:url('img/lines-dl.png');
+	background-image:url("img/lines-dl.png");
+}
+.bg-AurilesPictureExpo{
+	background-image:url('img/AurilesPictureExpo.png');
 }
 
 
